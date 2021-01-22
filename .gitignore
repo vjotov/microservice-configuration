@@ -1,0 +1,68 @@
+spring-cloud-config-server/HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+spring-cloud-config-server/spring-cloud-config-server/HELP.md
+spring-cloud-config-server/target/
+!spring-cloud-config-server/.mvn/wrapper/maven-wrapper.jar
+!spring-cloud-config-server/**/src/main/**/target/
+!spring-cloud-config-server/**/src/test/**/target/
+
+### STS ###
+spring-cloud-config-server.apt_generated
+spring-cloud-config-server.classpath
+spring-cloud-config-server.factorypath
+spring-cloud-config-server.project
+spring-cloud-config-server.settings
+spring-cloud-config-server.springBeans
+spring-cloud-config-server.sts4-cache
+
+### IntelliJ IDEA ###
+spring-cloud-config-server.idea
+spring-cloud-config-server*.iws
+spring-cloud-config-server*.iml
+spring-cloud-config-server*.ipr
+
+### NetBeans ###
+spring-cloud-config-server/nbproject/private/
+spring-cloud-config-server/nbbuild/
+spring-cloud-config-server/dist/
+spring-cloud-config-server/nbdist/
+spring-cloud-config-server/.nb-gradle/
+spring-cloud-config-serverbuild/
+spring-cloud-config-server!**/src/main/**/build/
+spring-cloud-config-server!**/src/test/**/build/
+
+### VS Code ###
+spring-cloud-config-server.vscode/
