@@ -32,6 +32,40 @@ build/
 ### VS Code ###
 .vscode/
 
+spring-cloud-config-client/spring-cloud-config-server/HELP.md
+spring-cloud-config-client/target/
+!spring-cloud-config-client/.mvn/wrapper/maven-wrapper.jar
+!spring-cloud-config-client/**/src/main/**/target/
+!spring-cloud-config-client/**/src/test/**/target/
+
+### STS ###
+spring-cloud-config-client/.apt_generated
+spring-cloud-config-client/.classpath
+spring-cloud-config-client/.factorypath
+spring-cloud-config-client/.project
+spring-cloud-config-client/.settings
+spring-cloud-config-client/.springBeans
+spring-cloud-config-client/.sts4-cache
+
+### IntelliJ IDEA ###
+spring-cloud-config-client/.idea
+spring-cloud-config-client/*.iws
+spring-cloud-config-client/*.iml
+spring-cloud-config-client/*.ipr
+
+### NetBeans ###
+spring-cloud-config-client/nbproject/private/
+spring-cloud-config-client/nbbuild/
+spring-cloud-config-client/dist/
+spring-cloud-config-client/nbdist/
+spring-cloud-config-client/.nb-gradle/
+spring-cloud-config-client/build/
+!spring-cloud-config-client/**/src/main/**/build/
+!spring-cloud-config-client/**/src/test/**/build/
+
+### VS Code ###
+spring-cloud-config-client/.vscode/
+
 
 spring-cloud-config-server/spring-cloud-config-server/HELP.md
 spring-cloud-config-server/target/
