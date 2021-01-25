@@ -1,9 +1,18 @@
 server.port: 8085
-management.endpoints.web.expose.include: "*"
+spring.cloud.config.uri: http://localhost:8888
+management.endpoints.web.exposure.include: "*"
+
+#  security:
+#    enabled: false
+#security:
+#  basic:
+#    enabled: false
 
 spring:
+  profiles:
+#    active: development
+    active: prod
+
   application:
     name: config-client
-  cloud:
-    config:
-      uri: http://localhost:8888
+

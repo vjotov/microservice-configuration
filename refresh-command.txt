@@ -1,0 +1,4 @@
+curl --location --request POST 'http://localhost:8085/actuator/refresh' \
+--header 'Content-Type: application/json' \
+--header 'Accept: application/json'
+
